@@ -1,0 +1,16 @@
+{
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
+    "forwardPorts": [3000],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"Dart-Code.dart-code",
+				"Dart-Code.flutter",
+				"monokai.theme-monokai-pro-vscode",
+				"mhutchie.git-graph",
+				"spywhere.guides",
+				"oderwat.indent-rainbow"
+			]
+        }
+    }
+}
